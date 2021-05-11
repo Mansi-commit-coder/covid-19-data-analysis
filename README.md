@@ -1,32 +1,14 @@
-<<<<<<< HEAD
-# WHO COVID-19 Situation Reports
+For the latest updates, please see [csse_covid_19_data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) folder.
 
-This folder summarizes the confirmed cases from [WHO COVID-2019 situation reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/). WHO defines the confirmed case as "a person with laboratory confirmation of 2019-nCoV
-infection, irrespective of clinical signs and symptoms. " ([Source](https://www.who.int/publications-detail/global-surveillance-for-human-infection-with-novel-coronavirus-(2019-ncov))) Therefore, its data on and after Feb 13 should have a huge gap compared with our [daily reports](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports). In order to bring a more comprehensive picture of the current coronavirus situation, we create this folder, which will serve as a good complementary to our daily report and the dashboard.
+# Novel Coronavirus 2019 Daily Case Data
+Each CSV file included in this folder reports the number of cumulative cases reported on the dashboard at a specified point in time. From Jan 22- Feb 13, at least two updates are provided each day. <br>
+The file names follow the date and time schema 'month-day-year_24hr time'
 
-### Notes
-* Time Zone: We assume that WHO reports in Geneva, Switzerland time (GMT+1). All date in this folder is in GMT+1.
-* Update Frequency: We maintain this dataset at least twice a week.
+### About Time Zone
+1. All file names are in US Eastern Time.
+2. The "Last Update" is in US Eastern Time (GMT -5) for all files before Feb 1 12:00 (ET).
+3. The "Last Update" is in UTC (GMT +0) for all files after Feb 1 12:00 (ET).
 
-## Updates (8/18/2020):
-
-WHO provides time series data based on their situational reports linked below. 
-* WHO Dashboard: https://covid19.who.int/table
-* WHO Situational Reports: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/
-=======
-# WHO COVID-19 Situation Reports
-
-This folder summarizes the confirmed cases from [WHO COVID-2019 situation reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/). WHO defines the confirmed case as "a person with laboratory confirmation of 2019-nCoV
-infection, irrespective of clinical signs and symptoms. " ([Source](https://www.who.int/publications-detail/global-surveillance-for-human-infection-with-novel-coronavirus-(2019-ncov))) Therefore, its data on and after Feb 13 should have a huge gap compared with our [daily reports](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports). In order to bring a more comprehensive picture of the current coronavirus situation, we create this folder, which will serve as a good complementary to our daily report and the dashboard.
-
-### Notes
-* Time Zone: We assume that WHO reports in Geneva, Switzerland time (GMT+1). All date in this folder is in GMT+1.
-* Update Frequency: We maintain this dataset at least twice a week.
-
-## Updates (8/18/2020):
-
-WHO provides time series data based on their situational reports linked below. 
-* WHO Dashboard: https://covid19.who.int/table
-* WHO Situational Reports: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/
->>>>>>> a03e66204fc59c302f3571209a75bec831e30561
-* WHO Time Series CSV: https://covid19.who.int/WHO-COVID-19-global-data.csv
+### Data Correction
+* Feb 20, 2020: remove 1 death from Shandong in 01-27-2020_2030.csv and 1 death from Fujian in 01-25-2020_2200.csv.
+* Feb 22, 2020: add 1 death to Heilongjiang in 01-25-2020_2200.csv. ([Issue 87](https://github.com/CSSEGISandData/COVID-19/issues/87))
